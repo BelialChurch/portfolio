@@ -52,6 +52,48 @@ button, textarea, select, input {
     .header__link:hover {
       color: #10c9c3;
       transition: all ease 0.3s; }
+.works {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.works__title {
+  margin-bottom: 31px;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.38px;
+}
+.works-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.works-card {
+  width: 356px;
+  position: relative;
+}
+.works__img {
+  width: 100%;
+}
+.works-card__title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 25px;
+  display: none;
+}
+@keyframes worksAnimate {
+    from  {
+      opacity: 0;}
+    to {
+      opacity: 1;
+    }
+}
+.works-card:hover .works-card__title {
+  display: block;
+  animation: worksAnimate 0.5s;
+}
 
 .about {
   padding-top: 100px;
@@ -69,6 +111,8 @@ button, textarea, select, input {
     line-height: 28px;
     font-size: 18px;
     letter-spacing: 0.09px; }
+
+
 
 .footer {
   padding-top: 100px;
