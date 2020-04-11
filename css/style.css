@@ -71,9 +71,11 @@ button, textarea, select, input {
 .works-card {
   width: 356px;
   position: relative;
+
 }
 .works__img {
   width: 100%;
+  height: 100%;
 }
 .works-card__title {
   position: absolute;
@@ -94,6 +96,10 @@ button, textarea, select, input {
   display: block;
   animation: worksAnimate 0.5s;
 }
+
+
+
+
 
 .about {
   padding-top: 100px;
